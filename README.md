@@ -75,7 +75,7 @@ Execute the compiled application:
 Provide Input: Enter the date details when prompted by the runtime execution terminal using the specified application criteria.
 
 ```
-
+```
  -------------------------------------
             AGE CALCULATOR
  -------------------------------------
@@ -88,5 +88,7 @@ Provide Input: Enter the date details when prompted by the runtime execution ter
  03 MONTHS
  10 DAYS
  -------------------------------------
+```
+
 # Check compiler version
 cobc --version
