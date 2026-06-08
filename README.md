@@ -58,5 +58,35 @@ While designed for IBM Mainframe compiler compatibility, this program can be com
 ### Prerequisites
 Ensure a COBOL compiler is active in your environment path:
 ```bash
+
+```
+
+Steps to Run
+```bash
+Compile the source code into an executable binary:
+```Bash
+cobc -x -o AgeCalculator AGE-CALC.cbl
+
+```
+Execute the compiled application:
+
+```Bash
+./AgeCalculator
+Provide Input: Enter the date details when prompted by the runtime execution terminal using the specified application criteria.
+
+```
+
+ -------------------------------------
+            AGE CALCULATOR
+ -------------------------------------
+ CURRENT DATE: 2026/06/08
+ ACCEPTED DATE: 2000/02/28
+ VALID DATE
+ -------------------------------------
+ AGE:
+ 0026 YEARS
+ 03 MONTHS
+ 10 DAYS
+ -------------------------------------
 # Check compiler version
 cobc --version
